@@ -127,7 +127,6 @@ section h3 {
 }
 @media (min-width: 768px) {
   article {
-    flex-direction: row;
     max-width: 700px;
     padding: 30px;
   }
@@ -140,4 +139,5 @@ section h3 {
     max-width: 900px;
   }
 }
+
 
