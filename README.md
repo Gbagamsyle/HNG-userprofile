@@ -32,4 +32,3 @@ The goal of this task is to build a **user profile interface** that displays bas
 - **JavaScript (optional)** – for interactivity and time
 
 
-Example:
