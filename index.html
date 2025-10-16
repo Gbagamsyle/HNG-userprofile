@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile Card</title>
+</head>
+<body>
+    <article data-testid="test-profile-card">
+        <figure>
+            <img src="./image/user-profile.jpg"
+            alt ="User Profile Picture"
+            data-testid="test-user-avatar"/>
+        </figure>
+
+        <div class="profile-details">
+            <header>
+                <h2 data-testid="test-user-name">Syle Ogaba</h2>
+            </header>
+            <p data-testid="test-user-bio">
+                Full stack developer by day, debugger of existential crises by night. 
+                I build websites and apps that sometimes feel like they build themselves (const Silas = () =&gt; &lt;FrontendDev /&gt;)        
+            </p>
+            <div class="timer" data-testid="test-user-time" id="user-time"></div>
+            <nav aria-label="Social links">
+                <ul data-testid="test-user-social-links">
+                    <li>
+                        <a href="https://x.com/SilasOgaba" 
+                        target="_blank" rel="noopener noreferrer" 
+                        data-testid="test-user-social-X">X</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Gbagamsyle" 
+                        target="_blank" rel="noopener noreferrer"
+                        data-testid="test-user-social-github">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ogaba-silas-4172821b8/" 
+                        target="_blank" rel="noopener noreferrer"
+                        data-testid="test-user-social-linkedin">LinkedIn</a>
+                    </li>
+                </ul>   
+           </nav>
+            <section>
+                <h3>Hobbies</h3>
+                <ul class="hobbies" data-testid="test-user-hobbies">
+                    <li>Coding</li>
+                    <li>Gaming (Call of Duty 🔫, Fifa 🎮)</li>
+                    <li>Cooking</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Dislikes</h3>
+                <ul data-testid="test-user-dislikes">
+                    <li>Clustered Code</li>
+                    <li>Embarrassment</li>
+                    <li>Corruption</li>
+                </ul>
+            </section>
+        </div>
+    </article>
+
+    
+<script src="index.js"></script>
+</body>
+</html>
