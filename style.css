@@ -128,15 +128,16 @@ section h3 {
 @media (min-width: 768px) {
   article {
     flex-direction: row;
-    align-items: flex-start;
+    max-width: 700px;
+    padding: 30px;
   }
-
-  figure, .profile-details {
-    flex: 1;
-  }
-
-  .profile-details {
-    align-items: flex-start;
-    text-align: left;
+  nav {
+    justify-content: flex-start;
   }
 }
+@media (min-width: 1024px) {
+  article {
+    max-width: 900px;
+  }
+}
+
